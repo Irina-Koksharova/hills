@@ -1,0 +1,52 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.card {
+  padding: 20px;
+  color: forward.$colorPrimary;
+  background-color: forward.$colorBg;
+  border-radius: 4px;
+
+  &:not(:last-child) {
+    margin: 0 0 25px;
+  }
+
+  & > img {
+    width: 40%;
+    border-radius: 4px;
+
+    &.small {
+      width: 38.8%;
+    }
+
+    &.large {
+      width: 42.5%;
+    }
+  }
+
+  &-text {
+    max-width: 57%;
+    padding: 0 88px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    color: forward.$colorCard;
+
+    & > h3 {
+      margin: 47px 0px 34px;
+      font-weight: 700;
+    }
+
+    & > p {
+      padding: 0 0 20px;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: justify;
+    }
+
+    & > a {
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.16px;
+      color: forward.$colorPrimary;
+    }
+  }
+}

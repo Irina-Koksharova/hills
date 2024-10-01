@@ -2,7 +2,13 @@
 
 .container {
   &-main {
+    @include forward.flex(flex-start, center);
+    flex-direction: column;
     padding: forward.$paddingPrimary;
+  }
+
+  &-accent {
+    padding: forward.$paddingAccent;
   }
 
   &-flex {
