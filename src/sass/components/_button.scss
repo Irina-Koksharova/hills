@@ -1,0 +1,5 @@
+@use '../abstracts/placeholders' as *;
+
+.button {
+  @extend %button;
+}
