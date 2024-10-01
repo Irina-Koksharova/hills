@@ -24,9 +24,10 @@
   }
 
   &-text {
+    @include forward.flex(center, center);
+    flex-direction: column;
     max-width: 57%;
     padding: 0 88px;
-    text-align: center;
     font-family: 'Hind', sans-serif;
     color: forward.$colorCard;
 
