@@ -1,0 +1,22 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.container {
+  &-main {
+    @include forward.flex(flex-start, center);
+    flex-direction: column;
+    padding: forward.$paddingPrimary;
+  }
+
+  &-accent {
+    padding: forward.$paddingAccent;
+  }
+
+  &-flex {
+    @include forward.flex(flex-start, center);
+  }
+
+  &-footer {
+    @include forward.flex(space-between, center);
+    padding: forward.$paddingFooter;
+  }
+}

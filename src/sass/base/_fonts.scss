@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Hind';
+  src: local('Hind'), url('../fonts/Hind-Regular.woff') format('woff'),
+    url('../fonts/Hind-Regular.woff2') format('woff2'),
+    url('../fonts/Hind-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: local('Hind'), url('../fonts/Hind-SemiBold.woff') format('woff'),
+    url('../fonts/Hind-SemiBold.woff2') format('woff2'),
+    url('../fonts/Hind-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro'),
+    url('../fonts/SourceSans3-Regular.woff') format('woff'),
+    url('../fonts/SourceSans3-Regular.woff2') format('woff2'),
+    url('../fonts/SourceSans3-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro'),
+    url('../fonts/SourceSans3-Bold.woff') format('woff'),
+    url('../fonts/SourceSans3-Bold.woff2') format('woff2'),
+    url('../fonts/SourceSans3-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fresca';
+  src: local('Fresca'), url('../fonts/Fresca-Regular.woff') format('woff'),
+    url('../fonts/Fresca-Regular.woff2') format('woff2'),
+    url('../fonts/Fresca-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
