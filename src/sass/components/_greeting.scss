@@ -1,0 +1,20 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.greeting {
+  font-family: 'Hind', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 72.3px;
+  letter-spacing: 1.14px;
+
+  & > span {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+      @include forward.after('Welcome');
+      padding: 18px 2px 0;
+      line-height: 35px;
+    }
+  }
+}

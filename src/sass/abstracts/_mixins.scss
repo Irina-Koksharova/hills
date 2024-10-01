@@ -6,10 +6,10 @@
   align-items: $alignItems;
 }
 
-@mixin after($content, $top, $left) {
+@mixin after($content) {
   content: $content;
   position: absolute;
-  top: $top;
-  left: $left;
+  top: 0;
+  left: 0;
   background-color: variables.$colorPseudo;
 }

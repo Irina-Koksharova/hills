@@ -14,7 +14,7 @@
     position: relative;
 
     &::after {
-      @include forward.after('awesome', 0, 0);
+      @include forward.after('awesome');
     }
   }
 }
