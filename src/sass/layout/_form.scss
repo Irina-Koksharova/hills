@@ -1,0 +1,41 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.form {
+  position: absolute;
+  top: -30%;
+  left: 20%;
+  @include forward.flex(space-between, flex-end);
+  width: 63%;
+  padding: forward.$paddingForm;
+  color: forward.$colorPrimary;
+  background: forward.$gradientForm;
+  border-radius: 3px;
+
+  &-header {
+    margin: 0 0 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+
+    & > span {
+      display: inline-block;
+      position: relative;
+
+      &::after {
+        @include forward.after('start');
+        top: -10px;
+        height: 55px;
+        padding: 25px 0 0;
+        line-height: 15px;
+      }
+    }
+  }
+
+  &-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+}

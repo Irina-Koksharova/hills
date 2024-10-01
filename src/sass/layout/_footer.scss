@@ -1,0 +1,15 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 245px;
+  color: forward.$colorCard;
+  background-color: forward.$colorBg;
+
+  &-text {
+    width: 310px;
+    font-size: 14.4px;
+    line-height: 20.16px;
+  }
+}

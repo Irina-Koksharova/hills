@@ -14,4 +14,9 @@
   &-flex {
     @include forward.flex(flex-start, center);
   }
+
+  &-footer {
+    @include forward.flex(space-between, center);
+    padding: forward.$paddingFooter;
+  }
 }
