@@ -1,0 +1,15 @@
+@use './variables' as variables;
+
+@mixin flex($justifyContent, $alignItems) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin after($content, $top, $left) {
+  content: $content;
+  position: absolute;
+  top: $top;
+  left: $left;
+  background-color: variables.$colorPseudo;
+}

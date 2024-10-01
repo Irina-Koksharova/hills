@@ -1,0 +1,8 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.contact-us {
+  width: 500px;
+  justify-content: space-between;
+
+  color: forward.$colorPrimary;
+}

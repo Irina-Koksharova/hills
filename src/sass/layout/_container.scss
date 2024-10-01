@@ -1,0 +1,11 @@
+@use '../modules/styles-forwarded.scss' as forward;
+
+.container {
+  &-main {
+    padding: forward.$paddingPrimary;
+  }
+
+  &-flex {
+    @include forward.flex(flex-start, center);
+  }
+}
